@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios"
 
 const axiosInstance: AxiosInstance = axios.create({
-    baseURL: 'http://notesapp-backend-production-f570.up.railway.app'
+    baseURL: 'https://notesapp-backend-production-f570.up.railway.app'
 });
 
 axiosInstance.interceptors.request.use(
